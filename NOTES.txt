@@ -7,4 +7,11 @@
   - theme applied
   - static pages (css, javascript)
   - plugins
+- restructured text
+  - headers
+  - code blocks
+  - directives (todo, info, tip, warning)
+- make
+  - html
+  - latexpdf 
 

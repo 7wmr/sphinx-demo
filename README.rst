@@ -20,7 +20,7 @@ Install the read the docs theme.
 Configuration
 ---------------------------
 
-Create a docs directory in your project.
+Create a docs directory in your project then set as current directory.
 
 .. code:: bash
 
