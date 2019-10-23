@@ -31,6 +31,7 @@ release = 'v1.0.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.todo'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -57,7 +58,11 @@ html_static_path = ['_static']
 
 # -- Extensions -------------------------------------------------
 
+# Add stylesheets and custom javascript
 def setup(app):
   app.add_stylesheet('style.css')
   app.add_javascript("custom.js")
+
+# Enable todos extension
+todo_include_todos = True
 
