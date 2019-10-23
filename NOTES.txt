@@ -2,4 +2,9 @@
 - install application
 - run quick start tool
 - create a .gitignore file
+  - exclude docs/build/
+- review conf.py file
+  - theme applied
+  - static pages (css, javascript)
+  - plugins
 

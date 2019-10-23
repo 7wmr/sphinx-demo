@@ -1,7 +1,7 @@
 SPHINX DEMO
 ==========================
 
-Install Sphinx
+Installation
 --------------------------
 
 Install the Sphinx tool.
@@ -10,9 +10,6 @@ Install the Sphinx tool.
 
    $ pip install sphinx
 
-Install recommended plugins
----------------------------
-
 Install the read the docs theme.
 
 .. code:: bash
@@ -20,7 +17,7 @@ Install the read the docs theme.
    $ pip install sphinx-rtd-theme
 
 
-Sphinx setup
+Configuration
 ---------------------------
 
 Create a docs directory in your project.
@@ -40,6 +37,7 @@ Update the following line in the file ``docs/source/conf.py`` to use the Read Th
 .. code:: python
 
    html_theme = 'sphinx_rtd_theme' # 'alabaster'
+
 
 References
 ---------------------------
