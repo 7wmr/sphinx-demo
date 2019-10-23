@@ -1,0 +1,5 @@
+
+- install application
+- run quick start tool
+- create a .gitignore file
+

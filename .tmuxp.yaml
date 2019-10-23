@@ -1,0 +1,12 @@
+session_name: sphinx-demo
+windows:
+- focus: 'true'
+  layout: 5d14,238x56,0,0{119x56,0,0,9,118x56,120,0[118x28,120,0,10,118x27,120,29,11]}
+  options: {}
+  panes:
+  - shell_command: vim
+    focus: 'true'
+  - shell_command: cd docs && clear
+  - shell_command: vim NOTES.txt
+  start_directory: ~/repos/sphinx-demo/
+  window_name: demo
