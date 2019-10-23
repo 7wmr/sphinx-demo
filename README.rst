@@ -35,7 +35,7 @@ Run the sphinx setup command and answer the prompts.
 
    $ sphinx-quickstart
 
-Update the following line in the file `docs/source/conf.py`
+Update the following line in the file ``docs/source/conf.py`` to use the Read The Docs theme.
 
 .. code:: python
 
