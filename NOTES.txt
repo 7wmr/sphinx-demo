@@ -13,5 +13,9 @@
   - directives (todo, info, tip, warning)
 - make
   - html
-  - latexpdf 
+  - latexpdf
+- release
+  - error messages (cause an error)
+  - automate documentation release (circle ci)
+
 
