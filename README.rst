@@ -35,6 +35,12 @@ Run the sphinx setup command and answer the prompts.
 
    $ sphinx-quickstart
 
+Update the following line in the file `docs/source/conf.py`
+
+.. code:: python
+
+   html_theme = 'sphinx_rtd_theme' # 'alabaster'
+
 References
 ---------------------------
 
