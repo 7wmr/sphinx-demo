@@ -62,6 +62,7 @@ html_static_path = ['_static']
 def setup(app):
   app.add_stylesheet('style.css')
   app.add_javascript("custom.js")
+  app.add_javascript("https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js")
 
 # Enable todos extension
 todo_include_todos = True
