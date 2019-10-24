@@ -62,6 +62,7 @@ References
 | Sphinx Doc                   | https://www.sphinx-doc.org                          |
 +------------------------------+-----------------------------------------------------+
 | Read the docs                | https://docs.readthedocs.io                         |
+|                              | https://readthedocs.com/pricing/                    |
 +------------------------------+-----------------------------------------------------+
 | Confluence builder extension | https://github.com/sphinx-contrib/confluencebuilder |
 +------------------------------+-----------------------------------------------------+
