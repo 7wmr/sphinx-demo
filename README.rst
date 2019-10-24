@@ -28,7 +28,7 @@ Install the confluence builder extension.
 
    $ pip install sphinxcontrib-confluencebuilder
 
-   1
+   
 Configuration
 ---------------------------
 
