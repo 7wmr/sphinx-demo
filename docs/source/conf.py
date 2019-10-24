@@ -33,7 +33,8 @@ release = 'v1.0.0'
 extensions = [
     'sphinx.ext.todo',
     'sphinxcontrib.httpdomain',
-    'sphinxcontrib.confluencebuilder'
+    'sphinxcontrib.confluencebuilder',
+    'sphinx.ext.autodoc'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

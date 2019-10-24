@@ -1,3 +1,6 @@
 Chef
 ==========================
 
+.. automodule:: io
+   :members:
+
