@@ -16,6 +16,11 @@ Install the read the docs theme.
 
    $ pip install sphinx-rtd-theme
 
+Install the HTTP domain extension.
+
+.. code:: bash
+
+   $ pip install sphinxcontrib-httpdomain
 
 Configuration
 ---------------------------
