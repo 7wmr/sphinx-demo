@@ -32,7 +32,8 @@ release = 'v1.0.0'
 # ones.
 extensions = [
     'sphinx.ext.todo',
-    'sphinxcontrib.httpdomain'
+    'sphinxcontrib.httpdomain',
+    'sphinxcontrib.confluencebuilder'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

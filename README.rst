@@ -22,6 +22,13 @@ Install the HTTP domain extension.
 
    $ pip install sphinxcontrib-httpdomain
 
+Install the confluence builder extension.
+
+.. code:: bash
+
+   $ pip install sphinxcontrib-confluencebuilder
+
+   1
 Configuration
 ---------------------------
 
@@ -47,12 +54,14 @@ Update the following line in the file ``docs/source/conf.py`` to use the Read Th
 References
 ---------------------------
 
-+------------------+------------------------------------------+
-| Name             | Link                                     |
-+==================+==========================================+
-| reStructuredText | http://docutils.sourceforge.net/rst.html |
-+------------------+------------------------------------------+
-| Sphinx Doc       | https://www.sphinx-doc.org               |
-+------------------+------------------------------------------+
-| Read the docs    | https://docs.readthedocs.io              |
-+------------------+------------------------------------------+
++------------------------------+-----------------------------------------------------+
+| Name                         | Link                                                |
++==============================+=====================================================+
+| reStructuredText             | http://docutils.sourceforge.net/rst.html            |
++------------------------------+-----------------------------------------------------+
+| Sphinx Doc                   | https://www.sphinx-doc.org                          |
++------------------------------+-----------------------------------------------------+
+| Read the docs                | https://docs.readthedocs.io                         |
++------------------------------+-----------------------------------------------------+
+| Confluence builder extension | https://github.com/sphinx-contrib/confluencebuilder |
++------------------------------+-----------------------------------------------------+
