@@ -51,6 +51,15 @@ Update the following line in the file ``docs/source/conf.py`` to use the Read Th
    html_theme = 'sphinx_rtd_theme' # 'alabaster'
 
 
+Confluence
+---------------------------
+
+Run the command below to publish a confluence page:
+
+.. code:: bash
+
+  sphinx-build -b confluence source build/confluence -E -a -v
+
 References
 ---------------------------
 
