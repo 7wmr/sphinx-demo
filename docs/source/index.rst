@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to the Sphinx demo!
+Index
 =======================================
 
 .. toctree::
@@ -38,9 +38,3 @@ Welcome to the Sphinx demo!
    virtual/vagrant/vagrant.rst
    virtual/vmware/vmware.rst
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

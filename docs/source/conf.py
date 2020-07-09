@@ -10,7 +10,7 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
+import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
@@ -68,5 +68,18 @@ def setup(app):
   app.add_javascript("https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js")
 
 # Enable todos extension
-todo_include_todos = True
+todo_include_todos = False
+
+# Confluence configuration
+confluence_publish = True
+confluence_master_homepage = False
+confluence_purge = False
+confluence_max_doc_depth = 4
+confluence_space_name = 'CNE'
+confluence_parent_page = 'Runbooks'
+confluence_publish_postfix = ' [ro]'
+
+confluence_server_url = 'https://7wmr.atlassian.net/wiki/'
+confluence_server_user = os.environ['CONFLUENCE_SERVER_USER']
+confluence_server_pass = os.environ['CONFLUENCE_SERVER_PASS']
 
