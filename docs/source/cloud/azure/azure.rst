@@ -1,5 +1,0 @@
-Microsoft Azure
-==========================
-
-Testing...
-

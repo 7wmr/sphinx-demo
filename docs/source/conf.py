@@ -17,8 +17,8 @@ import os
 
 # -- Project information -----------------------------------------------------
 
-project = 'Sphinx Demo'
-copyright = '2019, Richard Neave'
+project = 'CNE Runbooks'
+copyright = '2020, Contino'
 author = 'Richard Neave'
 
 # The full version, including alpha/beta/rc tags
@@ -61,16 +61,16 @@ html_static_path = ['_static']
 
 # -- Extensions -------------------------------------------------
 
-# Add stylesheets and custom javascript
+# Custom styling
 def setup(app):
   app.add_stylesheet('style.css')
   app.add_javascript("custom.js")
   app.add_javascript("https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js")
 
-# Enable todos extension
+# Todos extension
 todo_include_todos = False
 
-# Confluence configuration
+# Confluence extension
 confluence_publish = True
 confluence_master_homepage = False
 confluence_purge = False

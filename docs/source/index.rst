@@ -1,40 +1,30 @@
-.. Sphinx Demo documentation master file, created by
-   sphinx-quickstart on Wed Oct 23 11:29:26 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+
 
 Index
 =======================================
 
 .. toctree::
-   :maxdepth: 3
-   :caption: Infrastructure as Code:
+   :maxdepth: 4
+   :caption: Infrastructure
 
-   iac/terraform/terraform.rst
-   iac/chef/chef.rst
-   iac/ansible/ansible.rst
-
-.. toctree::
-   :maxdepth: 3
-   :caption: Continious Integration
-
-   cicd/gitlab/gitlab.rst
-   cicd/jenkins/jenkins.rst
-   cicd/circleci/circleci.rst
+   Deployment <infrastructure/deployment/index.rst>
+   Upgrade    <infrastructure/upgrade/index.rst>
 
 .. toctree::
-   :maxdepth: 3
-   :caption: Cloud Computing:
+   :maxdepth: 4
+   :caption: Application 
 
-   cloud/aws/aws.rst
-   cloud/azure/azure.rst
-   cloud/gcp/gcp.rst
+   Deployment <application/deployment/index.rst>
+   Upgrade    <application/upgrade/index.rst>
 
 .. toctree::
-   :maxdepth: 3
-   :caption: Virtualization:
+   :maxdepth: 4
+   :caption: Configuration
 
-   virtual/docker/docker.rst
-   virtual/vagrant/vagrant.rst
-   virtual/vmware/vmware.rst
 
+.. toctree::
+   :maxdepth: 4
+   :caption: Azure DevOps
+
+   azure-devops/pipelines/index.rst
+   azure-devops/repositories/index.rst
