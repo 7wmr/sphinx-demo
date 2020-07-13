@@ -1,13 +1,21 @@
 
-Pipelines
+Azure Pipelines
 =======================
 
+.. topic:: Summary
 
-.. include:: azure-blueprints.rst
-
-
-.. include:: helm-charts.rst
+    Azure Pipelines is a cloud service that you can use to automatically build and test 
+    your code project and make it available to other users. It works with just about 
+    any language or project type. 
     
+    Azure Pipelines combines continuous integration (CI) 
+    and continuous delivery (CD) to constantly and consistently test and build your code 
+    and ship it to any target.
+        
 
-.. include:: docker-images.rst
-    
+.. toctree::
+   :maxdepth: 4
+
+   Azure Blueprints <azure-blueprints/index.rst>
+   Helm Charts      <helm-charts/index.rst>
+   Docker Images    <docker-images/index.rst>

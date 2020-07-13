@@ -17,7 +17,5 @@ References
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 
-H4 header 
-+++++++++++++++++++++++
-
 https://www.google.co.uk
+
