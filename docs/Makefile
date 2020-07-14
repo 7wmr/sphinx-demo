@@ -12,6 +12,10 @@ BUILDDIR      = build
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
+repos:
+	mkdir "$(SOURCEDIR)/_repos"
+	cd "$(SOURCEDIR)/_repos" && rm -fr *
+
 html:
 	rm -fr "$(BUILDDIR)/html"
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
