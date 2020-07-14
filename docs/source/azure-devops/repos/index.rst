@@ -21,3 +21,4 @@ Azure Repos
 .. toctree::
    :maxdepth: 4
 
+    Child 1 <../../_repos/>
