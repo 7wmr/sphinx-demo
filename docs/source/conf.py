@@ -36,7 +36,7 @@ extensions = [
     'sphinxcontrib.httpdomain',
     'sphinxcontrib.confluencebuilder',
     'sphinx.ext.autodoc',
-    'sphinx-jsonschema'
+    'sphinx-jsonschema',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -60,6 +60,9 @@ html_theme = 'sphinx_rtd_theme' # 'alabaster'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_logo = '_static/icon.png'
+
+logo_only = True
 
 # -- Extensions -------------------------------------------------
 
@@ -76,12 +79,20 @@ todo_include_todos = False
 confluence_publish = True
 confluence_master_homepage = False
 confluence_purge = False
-confluence_max_doc_depth = 4
+confluence_max_doc_depth = 5
+confluence_page_hierarchy = True
 confluence_space_name = 'CNE'
-confluence_parent_page = 'Runbooks'
-confluence_publish_postfix = ' [ro]'
+confluence_parent_page = 'SRE'
+confluence_publish_postfix = ' [azdo]'
 
 confluence_server_url = 'https://7wmr.atlassian.net/wiki/'
 confluence_server_user = os.environ['CONFLUENCE_SERVER_USER']
 confluence_server_pass = os.environ['CONFLUENCE_SERVER_PASS']
 
+# # https://sphinxcontrib-confluencebuilder.readthedocs.io/en/stable/configuration.html#confluence-server-auth
+# from requests_oauthlib import OAuth1
+
+# confluence_server_auth = OAuth1(client_key,
+#     client_secret=client_secret,
+#     resource_owner_key=resource_owner_key,
+#     resource_owner_secret=resource_owner_secret)

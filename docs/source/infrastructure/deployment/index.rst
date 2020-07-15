@@ -1,5 +1,10 @@
-Deployment
-=======================
+Infrastructure Deployment
+=========================
+
+
+.. topic:: Summary
+
+   Documentation relating to the deployment of CNE infrastructure.
 
 .. toctree::
    :maxdepth: 4

@@ -19,6 +19,7 @@ Azure Repos
     with ease.
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 5
 
-    Child 1 <../../_repos/>
+    Child 1 <../../_repos/sphinx-demo-child-1/docs/index.rst>
+    Child 2 <../../_repos/sphinx-demo-child-2/docs/index.rst>

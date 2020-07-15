@@ -13,8 +13,11 @@ help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 repos:
-	mkdir "$(SOURCEDIR)/_repos"
-	cd "$(SOURCEDIR)/_repos" && rm -fr *
+	mkdir -p "$(SOURCEDIR)/_repos"
+	cd "$(SOURCEDIR)/_repos" \
+	&& rm -fr * \
+	&& git clone git@github.com:7wmr/sphinx-demo-child-1.git \
+	&& git clone git@github.com:7wmr/sphinx-demo-child-2.git
 
 html:
 	rm -fr "$(BUILDDIR)/html"

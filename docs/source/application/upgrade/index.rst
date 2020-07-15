@@ -1,5 +1,9 @@
-Upgrade
+Application Upgrade
 =======================
+
+.. topic:: Summary
+
+   Documentation relating to the upgrading of deployed CNE applications within an AKS cluster.
 
 .. toctree::
    :maxdepth: 4
