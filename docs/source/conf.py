@@ -92,8 +92,10 @@ confluence_server_pass = os.environ['CONFLUENCE_SERVER_PASS']
 # # https://sphinxcontrib-confluencebuilder.readthedocs.io/en/stable/configuration.html#confluence-server-auth
 # from requests_oauthlib import OAuth1
 
-# resource_owner_key = 'RN9qczHhYQzuLKDaXlaRxdPvIvBnAHQq'
-# resource_owner_secret = 'NtIWpjssz-VVbqIe01b5uJXJUXEqTd0yQdfBAgjemQBy9DEpGP1F1ahjKDp8d5Bo'
+# client_key = ''
+# client_secret = ''
+# resource_owner_key = ''
+# resource_owner_secret = ''
 
 # confluence_server_auth = OAuth1(client_key,
 #     client_secret=client_secret,
