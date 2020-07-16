@@ -25,7 +25,6 @@ author = 'Richard Neave'
 # The full version, including alpha/beta/rc tags
 release = 'v1.0.0'
 
-
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
@@ -63,6 +62,7 @@ html_static_path = ['_static']
 html_logo = '_static/icon.png'
 
 logo_only = True
+display_version = True
 
 # -- Extensions -------------------------------------------------
 
